@@ -10,4 +10,7 @@ $('document').ready(function(){
         $('#main').find('.box').remove();
         createGrid(x);
     });
+    $('#clear').click(function(){
+        $('#main').html('');
+    });
 });
